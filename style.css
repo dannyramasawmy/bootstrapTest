@@ -2,10 +2,10 @@
     color: gray
 }
 
-/* 
-.card {
-    margin: auto
-} */
+
+.data-card:hover {
+    color: red;
+}
 
 .main-card {
     padding: 1.5rem
