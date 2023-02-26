@@ -1,3 +1,5 @@
 # Investigate bootstrap
-Use Bootstrap to make a single page example for language tree
+Use Bootstrap to test the design for the languageTree app.
+
+
 
