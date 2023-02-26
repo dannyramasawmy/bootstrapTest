@@ -2,11 +2,12 @@
     color: gray
 }
 
-
-.data-card:hover {
-    color: red;
-}
-
 .main-card {
     padding: 1.5rem
+}
+
+.data-card:hover {
+    border-color: #ffc107;
+    box-shadow: 0px 0px 10px 2px #ffc107;
+    transition: border-color 1s, box-shadow 0.25s;
 }
