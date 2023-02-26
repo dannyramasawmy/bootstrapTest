@@ -12,11 +12,30 @@
     transition: border-color 1s, box-shadow 0.25s;
 }
 
-.floating-button {
-    /* background-color: #283747; */
-    background: #1B2631DF;
+.btn {
+    /* border-radius: 100px; */
+}
+
+.nav-btn {
+    background-color: rgba(var(--bs-tertiary-bg-rgb));
+
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100px;
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    font-weight: bold;
+    font-size: 40px;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.afloating-button {
+    /* background-color: #283747; */
+    /* background: #1B2631DF; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
     padding: 10px;
     margin: 20px;
     border-radius: 100px;
@@ -24,12 +43,6 @@
     line-height: 75px;
     font-weight: bold;
     font-size: 40px;
-}
-
-.home-icon {
-    /* display: inline; */
-    /* height: 4rem; */
-    vertical-align: middle
 }
 
 .top-floating {
