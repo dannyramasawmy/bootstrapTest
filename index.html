@@ -37,13 +37,13 @@
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item" data-bs-toggle="modal" data-bs-target="#aboutModal">
                                 <a class="nav-link" href="#">About</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item" data-bs-toggle="modal" data-bs-target="#contactModal">
                                 <a class="nav-link" href="#">Contact</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item" data-bs-toggle="modal" data-bs-target="#settingsModal">
                                 <a class="nav-link" href="#">Settings</a>
                             </li>
                         </ul>
@@ -51,6 +51,52 @@
                 </div>
             </nav>
         </section>
+
+        <!-- modal contact-->
+        <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="contactModalLabel">
+                            Contact Information
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Get in contact for feedback, request changes or reporting bugs!</p>
+                        <ul>
+                            <li>Email: languageTree@gmail.com</li>
+                            <li>GitHub: github.com</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal settings-->
+        <div class="modal fade" id="settingsModal" tabindex="-1" aria-labelledby="settingsModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="settingsModalLabel">
+                            Settings
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Hello world
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- current card -->
         <section>
@@ -166,6 +212,13 @@
                             <h5 class="card-subtitle subtle">Language B</h5>
                         </div>
                     </div>
+                    <!-- card 1, auto populate this with javascript -->
+                    <div class="col-12 col-lg-3 col-md-4 gap-2">
+                        <div class="data-card card text-bg-dark p-3 p-md-4">
+                            <h4 class="card-title">Language A</h4>
+                            <h5 class="card-subtitle subtle">Language B</h5>
+                        </div>
+                    </div>
 
 
                 </div>
@@ -183,7 +236,6 @@
                 </footer>
             </div>
         </section>
-
 
         <!-- app navigation -->
         <section>
