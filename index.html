@@ -123,6 +123,21 @@
             </div>
         </div>
 
+        <!-- modal settings-->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <input class="form-control me-auto" type="text" placeholder="Search cards"
+                        aria-label="Search cards">
+                    <div class="modal-body">
+                        <p>Type <b>#</b> to search themes</p>
+                        <p>Type <b>!</b> to search secondary language</p>
+                        <p>Type <b>*</b> to search everything</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- current card -->
         <section>
             <div class="container text-center main-card">
@@ -284,7 +299,8 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="nav-link text-secondary px-2">
+                                    <a href="#" class="nav-link text-secondary px-2" data-bs-toggle="modal"
+                                        data-bs-target="#searchModal">
                                         <img src="icons/search-icon.png" alt="Logo" width="30" height="30"
                                             class="bi d-block mx-2 mb-1">
                                         Search
